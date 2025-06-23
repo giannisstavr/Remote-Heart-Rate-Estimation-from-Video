@@ -1,0 +1,4 @@
+There are two different files in the repository.
+The final model includes the architecture of the model that was for the live prediction of the heart rate. This was done by using transfer learning along with Conv2DLSTM layers. It was found that is Conv layers was used and then LSTM layers serately, the features would be suppresed to a level where the model would be unable to associate spacial and temporal features. Thus, Conv2DLSTM layers were employed to retain as many features as possible. Additionally, linear layers were included for noise surpression. 
+The second file "trade show" incldes the code that was used to employ the model in a live prediction scenario with a webcome. A calibration method was included which normalises linearly. This was done due to the model's inherit sensitivity to light changes.
+The model would perform best under constant lighting condictions. 
