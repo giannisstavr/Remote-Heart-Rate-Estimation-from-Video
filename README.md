@@ -16,9 +16,6 @@ The core contribution of this repository is the implementation of a **2D+1 Convo
   - [Neural Network (2D+1 ConvLSTM)](#neural-network-2d1-convlstm)
 - [Data](#data)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Project Overview
 
